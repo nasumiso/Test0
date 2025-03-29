@@ -13,6 +13,7 @@ namespace SampleConsole
 
         static void Main(string[] args)
         {
+            // コメントテスト
             int l = 1, r = -1;
             Console.WriteLine($"left= {l}, right= {r}"); // <- ここに Break point
             Swap(ref l, ref r);
